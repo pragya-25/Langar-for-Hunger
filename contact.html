@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Langar for Hunger</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script defer src="scripts.js"></script>
+  <script defer src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="images/logo.png" alt="Langar for Hunger Logo">
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="donate.html">Donate</a></li>
+        <li><a href="volunteers.html">Volunteers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="contact" class="page-section" style="background-image: url('images/donation.png');">
+    <div class="overlay"></div>
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Get in touch with us to learn more about our programs and how you can help:</p>
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div id="map"></div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Langar for Hunger. All rights reserved.</p>
+  </footer>
+</body>
+</html>
